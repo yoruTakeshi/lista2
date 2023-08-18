@@ -9,6 +9,7 @@ if idrev == 1:
   delta = math.pow(b, 2) - (4 * a * c)
   print(delta)
   if delta < 0: print("Essa equação não possui raízes reais.")
+
   else:
     x1 = ((b * -1) + math.sqrt(delta)) / 2 * a
     x2 = ((b * -1) - math.sqrt(delta)) / 2 * a
